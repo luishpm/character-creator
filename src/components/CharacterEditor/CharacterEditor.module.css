@@ -35,3 +35,11 @@
 .controlColumn {
   width: 50%;
 }
+
+.grayBar {
+  position: fixed;
+  top: 60%;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 400px;
+  width: 100%;
+}
