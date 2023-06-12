@@ -43,3 +43,19 @@
   height: 400px;
   width: 100%;
 }
+
+
+@media screen and (max-width: 500px) {
+  .characterWrapper {
+    z-index: -1;
+    left: 35%;
+  }
+  .grayBar {
+    z-index: -2;
+  }
+  .controlColumn {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+  }
+}
